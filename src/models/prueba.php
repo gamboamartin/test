@@ -7,6 +7,6 @@ class prueba {
     }
 
     public function obten_registros_activos(){
-        
+        return array();
     }
 }

@@ -1,5 +1,5 @@
 <?php
-namespace tests;
+namespace gamboamartin\test;
 use gamboamartin\errores\errores;
 use ReflectionClass;
 use Throwable;

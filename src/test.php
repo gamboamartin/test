@@ -1,5 +1,5 @@
 <?php
-namespace tests;
+namespace gamboamartin\test;
 
 use PDO;
 use PHPUnit\Framework\TestCase;

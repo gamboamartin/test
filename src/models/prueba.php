@@ -6,6 +6,10 @@ class prueba {
 
     }
 
+    public function obten_registros(){
+        return array();
+    }
+
     public function obten_registros_activos(){
         return array();
     }

@@ -55,7 +55,7 @@ unit_test/prueba.zip
 /vendor/phpunit/phpunit/*.cache
 .phpunit.result.cache
 /.vscode/
-config.php
+/config/database.php
 
 
 /vendor/

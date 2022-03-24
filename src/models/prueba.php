@@ -1,7 +1,7 @@
 <?php
 namespace models;
 
-class prueba extends modelo {
+class prueba{
     public function a():void{
 
     }

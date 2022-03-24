@@ -24,6 +24,9 @@ class test extends TestCase{
         $link->query($consulta);
 
         $this->link = $link;
+
+        define('UT', true);
+
     }
 
 

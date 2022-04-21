@@ -1,6 +1,7 @@
 <?php
 namespace gamboamartin\test;
 
+use base\conexion;
 use config\database;
 use PDO;
 use PHPUnit\Framework\TestCase;
@@ -13,7 +14,9 @@ class test extends TestCase{
     public function __construct(?string $name = null, array $data = [], $dataName = '')
     {
         parent::__construct($name, $data, $dataName);
-        $db = new database();
+
+        $con = new conexion();
+        /*$db = new database();
 
         $link = new PDO("mysql:host=$db->db_host;dbname=$db->db_name", $db->db_user, $db->db_password);
 
@@ -21,9 +24,9 @@ class test extends TestCase{
         $sql = "SET sql_mode = '';";
         $link->query($sql);
         $consulta = 'USE '.$db->db_name;
-        $link->query($consulta);
+        $link->query($consulta);*/
 
-        $this->link = $link;
+        $this->link = $con->link;
         if(!defined('UT')) {
             define('UT', true);
         }

@@ -26,7 +26,7 @@ class test extends TestCase{
         $consulta = 'USE '.$db->db_name;
         $link->query($consulta);*/
 
-        $this->link = $con->link;
+        $this->link = conexion::$link;
         if(!defined('UT')) {
             define('UT', true);
         }

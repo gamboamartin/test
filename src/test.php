@@ -15,8 +15,9 @@ class test extends TestCase{
     {
         parent::__construct($name, $data, $dataName);
 
+        $con = new conexion();
+
         $this->link = conexion::$link;
-        
         if(!defined('UT')) {
             define('UT', true);
         }

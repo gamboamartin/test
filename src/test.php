@@ -15,18 +15,8 @@ class test extends TestCase{
     {
         parent::__construct($name, $data, $dataName);
 
-        $con = new conexion();
-        /*$db = new database();
-
-        $link = new PDO("mysql:host=$db->db_host;dbname=$db->db_name", $db->db_user, $db->db_password);
-
-        $link->query("SET NAMES 'utf8'");
-        $sql = "SET sql_mode = '';";
-        $link->query($sql);
-        $consulta = 'USE '.$db->db_name;
-        $link->query($consulta);*/
-
         $this->link = conexion::$link;
+        
         if(!defined('UT')) {
             define('UT', true);
         }

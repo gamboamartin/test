@@ -17,6 +17,10 @@
         }
     ],
     "require": {
+        "gamboa.martin/conexion": "dev-main",
+        "gamboa.martin/configuraciones": "dev-main",
+        "gamboa.martin/errores": "dev-main",
+        "gamboa.martin/validacion": "dev-main",
         "php": " >=8.1",
         "ext-pdo": "*"
     },

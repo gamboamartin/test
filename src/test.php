@@ -1,8 +1,7 @@
 <?php
 namespace gamboamartin\test;
 
-use base\conexion;
-use config\database;
+use gamboamartin\conexion\conexion;
 use PDO;
 use PHPUnit\Framework\TestCase;
 

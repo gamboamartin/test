@@ -34,6 +34,8 @@ class test extends TestCase{
             mysqli_set_charset($this->link, 'utf8');
             $sql = "SET sql_mode = '';";
             $this->link->query($sql);
+            $consulta = 'USE ' . $db->db_name;
+            $this->link->query($consulta);
         }
 
 

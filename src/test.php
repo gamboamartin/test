@@ -45,5 +45,14 @@ class test extends TestCase{
 
     }
 
+    public function row(bool $predeterminado): array
+    {
+        $registro = array();
+        if($predeterminado){
+            $registro['predeterminado'] = 'activo';
+        }
+        return $registro;
+    }
+
 
 }

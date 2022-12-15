@@ -70,7 +70,7 @@ class test extends TestCase{
 
     private function row_base(string $codigo, string $descripcion, int $id, array $registro): array
     {
-        $registro['id'] = $id;
+        $registro['id'] = $id; 
         $registro['descripcion'] = $descripcion;
         $registro['codigo'] = $codigo;
         return $registro;

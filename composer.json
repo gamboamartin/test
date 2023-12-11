@@ -17,7 +17,7 @@
         }
     ],
     "require": {
-        "php": " >=8.1",
+        "php": "^8.3",
         "ext-pdo": "*",
         "ext-mysqli": "*",
         "gamboa.martin/errores": "^2.0.0"

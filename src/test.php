@@ -12,9 +12,9 @@ use PHPUnit\Framework\TestCase;
 class test extends TestCase{
     public  PDO|mysqli $link;
 
-    public function __construct(?string $name = null, array $data = [], string $dataName = '', string $tipo_conexion = 'PDO')
+    public function __construct(?string $name = null, string $tipo_conexion = 'PDO')
     {
-        parent::__construct(name: $name,data:  $data,dataName:  $dataName);
+        parent::__construct(name: $name);
 
         $db = new database();
         if($tipo_conexion === 'PDO') {

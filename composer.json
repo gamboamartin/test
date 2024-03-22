@@ -20,7 +20,7 @@
         "php": "^8.3",
         "ext-pdo": "*",
         "ext-mysqli": "*",
-        "gamboa.martin/errores": "^5.0.0",
+        "gamboa.martin/errores": "^6.0.0",
         "phpunit/phpunit": "^10.0"
     }
 }
